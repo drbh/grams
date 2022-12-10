@@ -1,0 +1,5 @@
+/target
+applescripts
+Grams.app
+Grams*.dmg
+.DS_Store
