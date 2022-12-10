@@ -33,8 +33,16 @@ _just press `cmd + '` to bring the app to front_
 
 ### The easy way (for users)
 
-```
-dmg install instructions coming soon!
+```bash
+# for Intel Macs
+curl -s -O -L \
+https://github.com/drbh/grams/releases/download/beta/Grams.0.0.1.dmg && \
+open Grams.0.0.1.dmg
+
+# for Apple Silicon Macs
+curl -s -O -L \
+https://github.com/drbh/grams/releases/download/beta/Grams.0.0.1-amd64.dmg && \
+open Grams.0.0.1.dmg
 ```
 
 ### The hard way (for developers)
